@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Our Projects</h1>
+    <p>Discover amazing projects created by our team.</p>
+  </header>
+
+  <!-- Our Projects Section -->
+  <section id="our-projects">
+    <h2>Our Projects</h2>
+    <div class="project-container" id="project-list">
+      <!-- Projects will be dynamically loaded here -->
+    </div>
+  </section>
+
+  <!-- Happy Clients Section -->
+  <section id="clientTestimonials">
+    <h2>What Our Clients Say</h2>
+
+    <!-- Testimonials will be dynamically inserted here -->
+    <div id="testimonialsList" class="testimonial-list">
+        <!-- Testimonials will be inserted by JS -->
+    </div>
+</section>
+
+<section id="contact-form">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" id="fullName" name="full_name" placeholder="Full Name" required />
+    <input type="email" id="email" name="email" placeholder="Email Address" required />
+    <input type="tel" id="mobileNumber" name="mobile_number" placeholder="Mobile Number" required />
+    <input type="text" id="city" name="city" placeholder="City" required />
+    <button type="submit">Submit</button>
+  </form>
+  <p id="responseMessage"></p>
+</section>
+
+<section id="newsletterSection">
+  <h2>Subscribe to Our Newsletter</h2>
+  <form id="subscribeForm">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+  </form>
+  <div id="responseMessage"></div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Our Projects. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
